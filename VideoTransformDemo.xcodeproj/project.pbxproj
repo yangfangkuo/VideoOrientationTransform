@@ -14,6 +14,7 @@
 		276B5CF52025988100937029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276B5CF32025988100937029 /* LaunchScreen.storyboard */; };
 		276B5CF82025988100937029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B5CF72025988100937029 /* main.m */; };
 		276B5D00202598CE00937029 /* CustomVodPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B5CFF202598CE00937029 /* CustomVodPlayer.m */; };
+		276B5D052025B63200937029 /* CustomUseFullMasonryPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B5D042025B63200937029 /* CustomUseFullMasonryPlayer.m */; };
 		9F3F03F2912E4C6995C6FEC3 /* libPods-VideoTransformDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE4620CA5121A06BFAA023D /* libPods-VideoTransformDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		276B5CF72025988100937029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		276B5CFE202598CE00937029 /* CustomVodPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVodPlayer.h; sourceTree = "<group>"; };
 		276B5CFF202598CE00937029 /* CustomVodPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVodPlayer.m; sourceTree = "<group>"; };
+		276B5D032025B63200937029 /* CustomUseFullMasonryPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUseFullMasonryPlayer.h; sourceTree = "<group>"; };
+		276B5D042025B63200937029 /* CustomUseFullMasonryPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUseFullMasonryPlayer.m; sourceTree = "<group>"; };
 		7E2CF8BCA9E0114AE30B8020 /* Pods-VideoTransformDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTransformDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTransformDemo/Pods-VideoTransformDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ECE4620CA5121A06BFAA023D /* libPods-VideoTransformDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoTransformDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74CE9D31CEA0E62AA3DD978 /* Pods-VideoTransformDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTransformDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTransformDemo/Pods-VideoTransformDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				276B5CEE2025988000937029 /* Main.storyboard */,
 				276B5CFE202598CE00937029 /* CustomVodPlayer.h */,
 				276B5CFF202598CE00937029 /* CustomVodPlayer.m */,
+				276B5D032025B63200937029 /* CustomUseFullMasonryPlayer.h */,
+				276B5D042025B63200937029 /* CustomUseFullMasonryPlayer.m */,
 				276B5CF12025988000937029 /* Assets.xcassets */,
 				276B5CF32025988100937029 /* LaunchScreen.storyboard */,
 				276B5CF62025988100937029 /* Info.plist */,
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				276B5CED2025988000937029 /* ViewController.m in Sources */,
+				276B5D052025B63200937029 /* CustomUseFullMasonryPlayer.m in Sources */,
 				276B5D00202598CE00937029 /* CustomVodPlayer.m in Sources */,
 				276B5CF82025988100937029 /* main.m in Sources */,
 				276B5CEA2025988000937029 /* AppDelegate.m in Sources */,
@@ -366,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5K4H5227P;
 				INFOPLIST_FILE = VideoTransformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quarkdata.VideoTransformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5K4H5227P;
 				INFOPLIST_FILE = VideoTransformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quarkdata.VideoTransformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
